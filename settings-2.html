@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapwa</title>
+
+  <link rel="stylesheet" href="/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/vendor/fontawesome-free-6.2.0-web/css/all.min.css">
+  <script src="/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+
+        <a class="navbar-brand" href="/" data-ss1662713706="1">Kapwa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <form class="d-flex ms-auto me-sm-4">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Search for people">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" href="#" data-ss1662713706="1">Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">
+                <img src="/img/nopicture.png" class="avatar-small rounded-circle me-2" alt="Profile pic">
+                johndoe
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/profile.html">Profile</a>
+                <a class="dropdown-item" href="/messages.html">Messages</a>
+                <a class="dropdown-item" href="/settings.html">Settings</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/logout">Log out</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" data-ss1662713706="1">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#" data-ss1662713706="1">Action</a>
+                <a class="dropdown-item" href="#" data-ss1662713706="1">Another action</a>
+                <a class="dropdown-item" href="#" data-ss1662713706="1">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-ss1662713706="1">Separated link</a>
+              </div>
+            </li> -->
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+
+      <div class="row mt-4">
+        <div class="col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
+
+          <div class="card mb-3 card-post">
+            <div class="card-body">
+              <h4 class="card-title">Settings</h4>
+              <h6 class="card-subtitle mb-3 text-muted">Change your settings here</h6>
+
+              <div class="mb-4">
+                <ul class="nav nav-pills nav-fill">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/settings.html" data-ss1663051392="1">Profile Info</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/settings-2.html" data-ss1663051392="1">Account Login</a>
+                  </li>
+                </ul>
+              </div>
+
+              <form action="">
+                <fieldset>
+                  <div class="form-group mb-3">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" name="username">
+                  </div>
+                  <div class="form-group mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email">
+                  </div>
+                  <div class="form-group mb-3">
+                    <label for=" password">Password</label>
+                    <input type="password" class="form-control" name="password">
+                  </div>
+                  <div class="form-group">
+                    <label for="password_confirmation">Confirm Password</label>
+                    <input type="password" class="form-control" name="password_confirmation">
+                  </div>
+                  <button type="submit" class="w-100 btn btn-lg btn-primary mt-4">Save</button>
+                </fieldset>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </main>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">&copy; 2022 Kapwa, Inc</p>
+
+      <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap" />
+        </svg>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="/signup.html" class="nav-link px-2 text-muted">Sign up</a></li>
+        <li class="nav-item"><a href="/login.html" class="nav-link px-2 text-muted">Log in</a></li>
+        <li class="nav-item"><a href="/feed.html" class="nav-link px-2 text-muted">Feed</a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapwa</title>
+
+  <link rel="stylesheet" href="/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/vendor/fontawesome-free-6.2.0-web/css/all.min.css">
+  <script src="/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+
+        <a class="navbar-brand" href="/" data-ss1662713706="1">Kapwa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <form class="d-flex ms-auto me-sm-4">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Search for people">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" href="#" data-ss1662713706="1">Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">
+                <img src="/img/nopicture.png" class="avatar-small rounded-circle me-2" alt="Profile pic">
+                johndoe
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/profile.html">Profile</a>
+                <a class="dropdown-item" href="/messages.html">Messages</a>
+                <a class="dropdown-item" href="/settings.html">Settings</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/logout">Log out</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" data-ss1662713706="1">Dropdown</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#" data-ss1662713706="1">Action</a>
+                <a class="dropdown-item" href="#" data-ss1662713706="1">Another action</a>
+                <a class="dropdown-item" href="#" data-ss1662713706="1">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-ss1662713706="1">Separated link</a>
+              </div>
+            </li> -->
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+
+      <div class="row mt-4">
+        <div class="col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
+
+          <div class="card mb-3 card-post">
+            <div class="card-body">
+              <div class="d-flex">
+                <a href="/profile.html" class="text-decoration-none text-white">
+                  <div class="d-flex">
+                    <div>
+                      <img src="/img/nopicture.png" class="avatar-medium rounded-circle me-2" alt="Profile pic">
+                    </div>
+                    <div>
+                      <h4 class="card-title">John Doe</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">@johndoe</h6>
+                    </div>
+                  </div>
+                </a>
+                <div class="ms-auto dropstart">
+                  <a href="#" class="" data-bs-toggle="dropdown">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/profile.html">Delete</a>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text fs-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam cum impedit,
+                architecto quae, animi earum quibusdam, quos sunt accusantium distinctio saepe quas! Sapiente natus,
+                libero magnam earum architecto quidem esse.</p>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-regular fa-heart"></i>
+                <span class="ms-1">345</span>
+              </a>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-sharp fa-solid fa-retweet"></i>
+                <span class="ms-1">67</span>
+              </a>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-regular fa-comment"></i>
+                <span class="ms-1">24</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <form>
+                <div class="form-group mb-2">
+                  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg float-end">Reply</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="card mb-3 card-post">
+            <div class="card-body">
+              <div class="d-flex">
+                <a href="/profile.html" class="text-decoration-none text-white">
+                  <div class="d-flex">
+                    <div>
+                      <img src="/img/nopicture.png" class="avatar-medium rounded-circle me-2" alt="Profile pic">
+                    </div>
+                    <div>
+                      <h4 class="card-title">John Doe</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">@johndoe</h6>
+                    </div>
+                  </div>
+                </a>
+                <div class="ms-auto dropstart">
+                  <a href="#" class="" data-bs-toggle="dropdown">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/profile.html">Delete</a>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, dicta sapiente.
+                Quibusdam cumque quaerat veritatis, illum, excepturi voluptate reiciendis ex asperiores quae soluta
+                omnis error dolor ab vitae unde suscipit!</p>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-regular fa-heart"></i>
+                <span class="ms-1">2.1k</span>
+              </a>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-sharp fa-solid fa-retweet"></i>
+                <span class="ms-1">378</span>
+              </a>
+              <a href="/post.html" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-regular fa-comment"></i>
+                <span class="ms-1">328</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="card mb-3 card-post">
+            <div class="card-body">
+              <div class="d-flex">
+                <a href="/profile.html" class="text-decoration-none text-white">
+                  <div class="d-flex">
+                    <div>
+                      <img src="/img/nopicture.png" class="avatar-medium rounded-circle me-2" alt="Profile pic">
+                    </div>
+                    <div>
+                      <h4 class="card-title">John Doe</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">@johndoe</h6>
+                    </div>
+                  </div>
+                </a>
+                <div class="ms-auto dropstart">
+                  <a href="#" class="" data-bs-toggle="dropdown">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/profile.html">Delete</a>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">Some quick example text to build</p>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-regular fa-heart"></i>
+                <span class="ms-1">1.7k</span>
+              </a>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-sharp fa-solid fa-retweet"></i>
+                <span class="ms-1">294</span>
+              </a>
+              <a href="/post.html" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-regular fa-comment"></i>
+                <span class="ms-1">103</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="card mb-3 card-post">
+            <div class="card-body">
+              <div class="d-flex">
+                <a href="/profile.html" class="text-decoration-none text-white">
+                  <div class="d-flex">
+                    <div>
+                      <img src="/img/nopicture.png" class="avatar-medium rounded-circle me-2" alt="Profile pic">
+                    </div>
+                    <div>
+                      <h4 class="card-title">John Doe</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">@johndoe</h6>
+                    </div>
+                  </div>
+                </a>
+                <div class="ms-auto dropstart">
+                  <a href="#" class="" data-bs-toggle="dropdown">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/profile.html">Delete</a>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium earum accusamus
+                culpa commodi aspernatur atque qui, facere enim vel, similique nesciunt voluptas sint nostrum velit
+                dolorem possimus eum! Maxime, voluptas!</p>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-regular fa-heart"></i>
+                <span class="ms-1">1.7k</span>
+              </a>
+              <a href="#" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-sharp fa-solid fa-retweet"></i>
+                <span class="ms-1">158</span>
+              </a>
+              <a href="/post.html" class="card-link text-decoration-none" data-ss1662886860="1">
+                <i class="fa-regular fa-comment"></i>
+                <span class="ms-1">73</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </main>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">&copy; 2022 Kapwa, Inc</p>
+
+      <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap" />
+        </svg>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="/signup.html" class="nav-link px-2 text-muted">Sign up</a></li>
+        <li class="nav-item"><a href="/login.html" class="nav-link px-2 text-muted">Log in</a></li>
+        <li class="nav-item"><a href="/feed.html" class="nav-link px-2 text-muted">Feed</a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

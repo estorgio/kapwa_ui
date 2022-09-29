@@ -1,0 +1,23 @@
+.main-content {
+  min-height: 80vh;
+}
+
+.avatar-small {
+  width: 30px;
+}
+
+.avatar-medium {
+  width: 55px;
+}
+
+.avatar-large {
+  width: 130px;
+}
+
+.profile-card {
+  background-color: #000
+}
+
+.search-follow {
+  margin-left: 55px;
+}
